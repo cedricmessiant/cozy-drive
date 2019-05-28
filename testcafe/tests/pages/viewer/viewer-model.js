@@ -8,15 +8,15 @@ export default class Viewer {
     await t
       .expect(selectors.spinner.exists)
       .notOk(
-        'waitForLoading - Page didnt Load : selectors.spinner still exists'
+        'Page didnt Load : selectors.spinner still exists'
       )
     await isExistingAndVisibile(
       selectors.viewerWrapper,
-      'waitForLoading - selectors.viewerWrapper'
+      'selectors.viewerWrapper'
     )
     await isExistingAndVisibile(
       selectors.viewerControls,
-      'waitForLoading - selectors.viewerControls'
+      'selectors.viewerControls'
     )
     logger.debug(`viewer-model : waitForLoading Ok`)
   }

@@ -9,11 +9,11 @@ export default class PublicPhotos extends Photos {
     await t
       .expect(selectors.loading.exists)
       .notOk(
-        'waitForLoading - Page didnt Load : selectors.loading still exists'
+        'Page didnt Load : selectors.loading still exists'
       )
     await isExistingAndVisibile(
       selectors.albumPublicLayout,
-      'waitForLoading - selectors.albumPublicLayout'
+      'selectors.albumPublicLayout'
     )
     logger.debug(`photos-model-public : waitForLoading Ok`)
   }

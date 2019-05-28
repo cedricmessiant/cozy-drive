@@ -10,11 +10,11 @@ export default class Timeline extends Commons {
     await t
       .expect(selectors.loading.exists)
       .notOk(
-        'waitForLoading - Page didnt Load : selectors.loading still exists'
+        'Page didnt Load : selectors.loading still exists'
       )
     await isExistingAndVisibile(
       selectors.contentWrapper,
-      'waitForLoading - selectors.contentWrapper'
+      'selectors.contentWrapper'
     )
     logger.debug(`photos-timeline-model : waitForLoading Ok`)
   }

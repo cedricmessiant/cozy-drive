@@ -4696,6 +4696,23 @@ cozy-ui@19.36.1:
     react-pdf "^4.0.5"
     react-select "2.2.0"
 
+cozy-ui@20.8.0:
+  version "20.8.0"
+  resolved "https://registry.yarnpkg.com/cozy-ui/-/cozy-ui-20.8.0.tgz#992f2ac7c46238bba2c74e6eaf7b16dd85afabc8"
+  integrity sha512-YQgLIN0imJij9dzrYR6+i39xWDkPapOvEurei+JPcVcDboIt8OAQWlAojrYAiW3OA/ctUEjkVcRIZW21FU2OAw==
+  dependencies:
+    "@babel/runtime" "^7.3.4"
+    body-scroll-lock "^2.5.8"
+    classnames "^2.2.5"
+    date-fns "^1.28.5"
+    hammerjs "^2.0.8"
+    node-polyglot "^2.2.2"
+    normalize.css "^7.0.0"
+    react-hot-loader "^4.3.11"
+    react-markdown "^4.0.8"
+    react-pdf "^4.0.5"
+    react-select "2.2.0"
+
 create-ecdh@^4.0.0:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/create-ecdh/-/create-ecdh-4.0.3.tgz#c9111b6f33045c4697f144787f9254cdc77c45ff"

@@ -119,6 +119,13 @@ export const processNextFile = (
       try {
         error = uploadError
         const path = await CozyFile.getFullpath(dirID, file.name)
+        logger.warn('sharingState: ', sharingState)
+        logger.warn('path: ', path)
+        logger.warn('isShared: ', isShared(sharingState, { path }))
+        logger.warn(
+          'hasSharedParent: ',
+          hasSharedParent(sharingState, { path })
+        )
         if (
           !isShared(sharingState, { path }) &&
           !hasSharedParent(sharingState, { path })
